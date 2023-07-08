@@ -1,0 +1,17 @@
+import * as React from "react";
+
+export default  interface tsUserLevels {
+    title?: string
+    children: React.ReactNode
+  }
+  
+  export default function tsUserLevels({
+    children,
+    title = 'Dr.',
+  }: tsUserLevels) {
+    return (
+      <div>
+        Ts Список уровней.
+      </div>
+    )
+  }
