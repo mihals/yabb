@@ -2,9 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Manager from './manager.js';
+//import reportWebVitals from './reportWebVitals';
 
-
+window.myManager=new Manager();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

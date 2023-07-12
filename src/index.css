@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background:  #e0e4ed;;
+  background:  #e0e4ed;
 }
 
 code {
@@ -184,10 +184,73 @@ code {
   border-radius: inherit;
 }
 
-/* .roleButton:hover{
-  opacity: 0.3;
-}  */
-
 .listItem:hover{
   background-color: #e0e4ed;
+}
+
+.modal {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+  background-color:whitesmoke ;
+  border: 2px solid  ;
+  border-color: lightblue;
+  border-radius: 12px;
+  position:  absolute;
+  width: 40rem;
+  top: 35%;
+  left: calc(50% - 20rem);
+  bottom: 35%;
+}
+
+.modalTxt{
+  color:darkblue  ;
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-align: center;
+  align-content: center;
+}
+
+.modalPrompt{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+  background-color:whitesmoke ;
+  border: 2px solid  ;
+  border-color: lightblue;
+  border-radius: 12px;
+  position:  absolute;
+  width: 40rem;
+  top: 35%;
+  left: calc(50% - 20rem);
+  bottom: 35%;
+}
+
+.modalPromptTxt{
+  color:darkblue  ;
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-align: center;
+  align-content: center;
+}
+
+.modalPromptBtnPlay{
+  padding: 0.8rem;
+  margin : 1rem;
+  border-radius: 0.5rem ;
+  background-color: #4bb34b;
+  color: #ffffff ;
+  font-weight: bold;
+}
+
+.modalPromptBtnLearn{
+  padding: 0.8rem;
+  margin : 1rem;
+  border-radius: 0.5rem ;
+  background-color: #f92906 ;
+  color: #ffffff;
+  font-weight: bold;
 }

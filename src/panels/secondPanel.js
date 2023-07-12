@@ -10,7 +10,7 @@ export default function SecondPanel({ go }) {
             </div>
             <div className='listContent'>
                 <h1>Second Panel</h1>
-                <div className='listItem'>
+                <div className='listItem' onClick={(e)=>go(1)}>
                 <div className='itemImg'><img src={enable} style={{ width: "48px",marginLeft:'1rem' }} /></div>
                 <div className='listText' style={{verticalAlign: 'center'}}>Уровень 1. У вас 200 баллов.</div>
                 <span className='roleButton'></span>
